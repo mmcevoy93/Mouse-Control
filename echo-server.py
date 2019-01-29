@@ -1,7 +1,7 @@
 import socket
 import pyautogui
 
-HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
+HOST = '10.0.0.118'  # Standard loopback interface address (localhost)
 PORT = 8000       # Port to listen on (non-privileged ports are > 1023)
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
