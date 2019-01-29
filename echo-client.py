@@ -11,4 +11,5 @@ while True:
     s.sendall(bytes(mouseXY))
     data = s.recv(1024)
 
+
     print('Received', repr(data))
