@@ -18,5 +18,5 @@ while True:
         break
     conn.sendall(data)
     x = int(data.split(',')[0])
-    y = int(data.split(',')[0])
+    y = int(data.split(',')[1])
     pyautogui.moveTo(x, y)
